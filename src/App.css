@@ -1,0 +1,85 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+  }
+  
+  .calc-body {
+    background-color: #161515;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 50vw;
+    padding: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .screen {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .output {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: 900;
+    font-size: 2vw;
+  }
+  
+  .variables {
+    margin: 5%;
+    margin-bottom: 10%;
+    border: 2px rgb(202, 202, 202) solid;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 3%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .fields {
+    margin-bottom: 5%;
+    color: #0056b3;
+    flex-basis: 10%;  
+  }
+  
+
+  .variables h2{
+    color: #0056b3;
+  }
+
+  .fields input{
+    background-color: #e8eef5;
+    border: 1px solid rgb(231, 228, 228);
+    width: 5vw;
+  }
